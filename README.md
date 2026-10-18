@@ -2,6 +2,18 @@
 
 一个可自由旋转、缩放、平移观看的日式雨夜便利店微缩景观。所有建筑与街景收在完整的 16 × 16 正方形底座内；页面只有实时三维画面，没有标题、按钮、菜单或操作提示。
 
+## 实际运行截图
+
+以下截图来自生产构建的真实浏览器验收，展示完整微缩场景、可见的便利店室内和模型背面。
+
+![雨夜便利店微缩景观整体](docs/screenshots/01-overview.png)
+
+| 店内细节 | 模型背面 |
+| --- | --- |
+| ![透过玻璃看到明亮充实的店内](docs/screenshots/03-interior-detail.png) | ![可环绕观察的模型背面](docs/screenshots/04-rear.png) |
+
+生产版浏览器验收结果为 **18 / 18 通过**，无运行或 Shader 错误、无外部素材请求。更多截图、测试项目和验证范围见 [TESTING.md](TESTING.md)。
+
 直接用 React、TypeScript、Three.js / React Three Fiber 编写程序化模型。未使用 Blender、外部模型、照片、视频或生成图片。招牌、包装和海报由 Canvas 绘制，天气由 GLSL 着色器驱动。
 
 ## 运行
